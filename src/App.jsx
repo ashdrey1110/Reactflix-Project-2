@@ -20,6 +20,8 @@ function App() {
     language: ''
   })
 
+
+
 // Trending: White Lotus 51394, Squid Game 43687, Severance 44933, Reacher 43031, Breaking Bad 169
   //let trendingIds = [169, 43031, 44933, 43687, 51394];
   let trendingIds = [169];
@@ -29,8 +31,8 @@ function App() {
     trendingIds.forEach((trendingID) => {
       fetch(`https://api.tvmaze.com/shows/${trendingID}`)
       .then(res => res.json())
-      .then(data => trendingShows.push(data))
-    })  
+      .then(data => setData(data))
+    })
   }, [])
 
 
@@ -39,17 +41,11 @@ function App() {
     <div className='nav'>
       <h1>Reactflix</h1>
       <div>Home</div>
-      <div>Favorite</div>
+      <div>Favorites</div>
       <div>Search</div>
     </div>
-    <h2>Trending Shows</h2>
-    <div className="trending-shows">
-        {trendingShows.map(show =>(
-            <div key={show.id}>
-                <h2>{show.name}</h2>
-            </div>
-        ))}
-    </div>
+
+    
     <Routes>
       <Route path='/' element={<Home />}/>
     </Routes>

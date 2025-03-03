@@ -1,7 +1,12 @@
+import Trending from './Trending.jsx'
+import  Favorites  from './Favorites.jsx'
+
 export default function Home(){
     return (
         <>
-        <h1>Home Page</h1>
+        <h2>Home Page</h2>
+        <Trending />
+        <Favorites />
         </>
     )
 }

@@ -5,11 +5,66 @@
   text-align: center;
 }
 
-.nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: left; /* Centers items horizontally */
-  gap: 20px;
-  max-width: 100%;
-  margin: 0 auto;
+
+
+#root::before {
+  content: '';
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: 180px;
+  height: 180px;
+  background-image: url('https://www.transparenttextures.com/patterns/dark-swirl.png'); /* Dark swirl pattern */
+  opacity: 0.2;
+  z-index: -1;
 }
+
+
+.nav {
+  position: fixed; /* Keeps it at the top */
+  padding: 15px;
+  background: rgba(20, 20, 20, 0.2); /* Dark semi-transparent */
+  border: 3px solid #444;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  top: 25px;
+  left: 25px;
+  
+}
+
+
+.nav::before,
+.nav::after {
+  content: '✦';
+  font-family: 'Great Vibes', cursive;
+  font-size: 4rem;
+  color: #666;
+  position: absolute;
+}
+
+.nav::before {
+  top: -10px;
+  left: 0px;
+}
+
+.nav::after {
+  bottom: -10px;
+  right: 0px;
+}
+
+/* Styling Links */
+.nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #bbb;
+  transition: all 0.3s ease-in-out;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.nav a:hover {
+  color: black;
+  background: #bbb;
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.2);
+}
+

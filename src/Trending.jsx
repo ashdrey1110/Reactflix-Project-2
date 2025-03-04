@@ -6,14 +6,14 @@ export default function Trending({ mockData = [], realData = [] }) {
 
     return (
         <>
-        <h2>Trending Shows</h2>
+        <div className="trending-header">Trending Shows</div>
         <div className="trending-shows">
         {dataToShow.map((show) => (
             <div key={show.id}>
-                <h3>{show.name}</h3>
                 <Link to={`/details/${show.id}/${encodeURIComponent(show.name)}`}>
-                    <img src={show.image?.medium} alt={show.name} width="150"/>
+                    <img src={show.image?.medium} alt={show.name} className="individ-show-img"/>
                 </Link>
+                <div className="show-name">{show.name}</div>
             </div>
         ))}
         </div>

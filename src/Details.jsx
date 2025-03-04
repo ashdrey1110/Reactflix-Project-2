@@ -1,5 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+import StarRating from './rating';
+import './App.css';
 
 export default function Details() {
     const { id, name } = useParams();  // Get the show ID & Name from URL
@@ -14,7 +16,7 @@ export default function Details() {
     if (!showDetails) return <h2>Loading details...</h2>;
 
     return (
-        <div>
+        <div className='details-main' >
             <h1>{showDetails.name}</h1>
             <img src={showDetails.image?.original} alt={showDetails.name} width="300"/>
             <p dangerouslySetInnerHTML={{ __html: showDetails.summary }}></p>
@@ -22,6 +24,10 @@ export default function Details() {
             <p><strong>Language:</strong> {showDetails.language}</p>
             <p><strong>Premiered:</strong> {showDetails.premiered}</p>
             <p><strong>Genres:</strong> {showDetails.genres?.join(', ') || 'N/A'}</p>
+            <div className="user-rating">
+                <h3>Rate this show:</h3>
+                <StarRating />
+            </div>
         </div>
     );
 }

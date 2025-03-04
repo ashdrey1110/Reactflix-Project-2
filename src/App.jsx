@@ -3,6 +3,8 @@ import { Routes, Route, Link } from 'react-router-dom';
 import Home from './Home.jsx';
 import Favorites from './Favorites.jsx';
 import Details from './Details.jsx';
+import Search from './Search.jsx';
+import Random from './Random.jsx';
 import mockData from './mockTrending.js'; 
 import './App.css';
 
@@ -22,18 +24,27 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="main">
+      
       <div className='nav'>
-        <h1>Reactflix</h1>
+        <div className="title-logo"><img src='/images/REACTFLIX-LOGO.png' alt='react-logo' className='reactflix-logo' /></div>
+        <div className="nav-options"> 
         <Link to="/">Home</Link>
         <Link to="/favorites">Favorites</Link>
+        <Link to="/search">Search</Link>
+        
+        </div>
       </div>
 
       <Routes>
         <Route path="/" element={<Home mockData={mockData} realData={realData} />} />
         <Route path="/favorites" element={<Favorites />} />
         <Route path="/details/:id/:name" element={<Details />} />
+        <Route path="/search" element={<Search />} />
       </Routes>
+      <div className="random-btn">
+        <Random />
+      </div>
     </div>
   );
 }

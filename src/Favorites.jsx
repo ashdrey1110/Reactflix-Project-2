@@ -1,8 +1,7 @@
-export default function Favorites({favoritesProp}){
+export default function Favorites(){
     return (
         <>
         <h1>Favorites Page</h1>
-        <div> {favoritesProp.title} </div>
         </>
     )
 }

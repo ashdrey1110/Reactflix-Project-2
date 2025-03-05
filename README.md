@@ -6,7 +6,7 @@
 2. [Project Overview](#project-overview)
    - [Wireframes](#wireframes)
    - [User Stories](#user-stories)
-3. [Features](#features)
+3. [Features](#noteable-features)
 4. [Installation](#installation)
 5. [Credits](#credits)
 
@@ -24,7 +24,7 @@ In the navigation menu at the top right, users can search for shows or click "Ra
 
 Here are the wireframes for our project, illustrating the main layouts and user flows:
 
-WILL INPUT IMAGES ONCE WE HAPPY WITH THE LAYOUT
+WILL INPUT IMAGES ONCE WE ARE HAPPY WITH THE LAYOUT.
 
 - **Home Page**
   ![Home Page](wireframes/home-page.png)
@@ -41,50 +41,43 @@ WILL INPUT IMAGES ONCE WE HAPPY WITH THE LAYOUT
 
 ### User Stories
 
-We've came up with the following user stories to guide our development:
+We've come up with the following user stories to guide our development:
 
-1. **As a user, I want to see the top 5 trending shows.**
+1. **As a user, I want to see the top 5 trending shows on the homepage.**
    - Acceptance Criteria:
-     - Words words words.
+     - Upon landing on the homepage, the site will display the 5 top trending TV shows.
 
 2. **As a user, I want to view detailed information about a specific show so that I can learn more about it.**
    - Acceptance Criteria:
-     - Words words words.
+     - Clicking on a TV show's banner will navigate to a details page that displays the show's description, rating, language, premiere date, ongoing status, and genre.
 
-3. **As a user, I want to be able to rate a show (5-stars) I want to watch/have watched.**
+3. **As a user, I want to be able to rate a show I want to watch or have watched using a 5-star system.**
    - Acceptance Criteria:
-     - Words words words.
+     - On the details page of the TV show, users can rate the show from 1 to 5 stars.
 
-4. **As a user, I will want to search by id.**
+4. **As a user, I want to search for TV shows.**
    - Acceptance Criteria:
-     - Words words words.
+     - Entering a word or phrase into the search box will display all TV shows matching that search query.
 
-5. **As a user, I want to see a show’s title and poster**
+5. **As a user, I want to see a show's title and poster across all relevant pages.**
    - Acceptance Criteria:
-     - Words words words.
-    
-6. **As a user, I would like to make a favorites list**
+     - On the homepage, favorites page, details page, and search results page, the title and poster of TV shows will be displayed.
+
+6. **As a user, I want to create a favorites list.**
    - Acceptance Criteria:
-     - Words words words.
+     - On the details page, a "favorite" button is available. Once clicked, the show is added to the user's favorites list, which is displayed on the homepage under a "Favorites" section.
 
-## Features
+## Noteable Features
 
-The following features have been identified as essential for our Minimum Viable Product (MVP):
+The following features were added to make our web app a Minimum Viable Product (MVP):
 
-1. **Home Page with Trending Shows**
-   - Reasoning: Words words words.
+1. **Home Page with Trending Shows and Favorites**
 
 2. **Show Details Page**
-   - Reasoning: 
 
-3. **Favorites Functionality**
-   - Reasoning: 
+3. **Search Functionality**
 
-4. **Search Functionality**
-   - Reasoning: 
-
-5. **Random Show Suggestion**
-   - Reasoning: 
+4. **Random Show Suggestion**
 
 ## Installation
 

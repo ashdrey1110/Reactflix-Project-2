@@ -6,9 +6,9 @@
 2. [Project Overview](#project-overview)
    - [Wireframes](#wireframes)
    - [User Stories](#user-stories)
-3. [Features](#noteable-features)
-4. [Installation](#installation)
-5. [Credits](#credits)
+   - [Dev Tests](#jest-tests)
+3. [Installation](#installation)
+4. [Credits](#credits)
 
 ## Introduction
 
@@ -22,7 +22,7 @@ In the navigation menu at the top right, users can search for shows or click "Ra
 
 ### Wireframes
 
-Here are the wireframes for our project, illustrating the main layouts and user flows:
+Here are the wireframes for our project, illustrating the main layouts and user flows, this also is what we used to make sure our app is Minimum Viable Product (MVP):
 
 WILL INPUT IMAGES ONCE WE ARE HAPPY WITH THE LAYOUT.
 
@@ -67,21 +67,24 @@ We've come up with the following user stories to guide our development:
    - Acceptance Criteria:
      - On the details page, a "favorite" button is available. Once clicked, the show is added to the user's favorites list, which is displayed on the homepage under a "Favorites" section.
 
-## Noteable Features
+### Jest Tests
 
-The following features were added to make our web app a Minimum Viable Product (MVP):
+Below are the list of Jest tests we used to help bug test our features:
 
-1. **Home Page with Trending Shows and Favorites**
+1. **Test 1**
+   - Purpose and result.
 
-2. **Show Details Page**
+2. **Test 2**
+   - Purpose and result.
 
-3. **Search Functionality**
-
-4. **Random Show Suggestion**
+3. **Test 3**
+  - Purpose and result.
 
 ## Installation
 
-- Words words words.
+1. **1**
+
+2. **2**
 
 ## Credits
 - Created by: Ashley Reynolds, Robert Prickett, Jesse Baze, Kiersten Morrow

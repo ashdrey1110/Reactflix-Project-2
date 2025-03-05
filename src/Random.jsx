@@ -21,7 +21,6 @@ function Random() {
       <Link to={`/details/${randomId}/randomid${randomId}}`}>
           <button className='random-btn'>Click me!</button>    
       </Link> 
-      {/* <button onClick={handleRandomShow} className="nav-link">Pick4Me</button> */}
     </>
   );
 }

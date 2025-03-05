@@ -32,6 +32,7 @@ export default function Search(){
             </Link> */}
 
             <input name="searchInputText" className='text-input' value={inputText} onChange={inputTextBox}/> 
+            
             <button className='text-search-btn' onClick={getSearchResults}>Search</button>    
             <div className="search-results">
             {results.map((show) => (

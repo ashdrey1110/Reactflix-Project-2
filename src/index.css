@@ -24,6 +24,7 @@ a:hover {
 
 body {
   margin: 0;
+  background-color: #161616 !important;
 }
 
 html, body {
@@ -31,7 +32,7 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
-  background-color: #161616; /* Set this to your desired color */
+  background-color: #161616 !important; /* Set this to your desired color */
   color: rgb(0, 0, 0); /* Ensures text is visible */
 }
 

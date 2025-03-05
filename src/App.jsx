@@ -32,7 +32,7 @@ function App() {
         <Link to="/">Home</Link>
         <Link to="/favorites">Favorites</Link>
         <Link to="/search">Search</Link>
-        
+        <Link to="/random">Random</Link>
         </div>
       </div>
 
@@ -40,11 +40,12 @@ function App() {
         <Route path="/" element={<Home mockData={mockData} realData={realData} />} />
         <Route path="/favorites" element={<Favorites />} />
         <Route path="/details/:id/:name" element={<Details />} />
-        <Route path="/search" element={<Search />} />
+        <Route path="/random" element={<Random />} />
+        <Route path="/search" element={<Search />} />  
       </Routes>
-      <div className="random-btn">
+      {/* <div className="random-btn">
         <Random />
-      </div>
+      </div> */}
     </div>
   );
 }

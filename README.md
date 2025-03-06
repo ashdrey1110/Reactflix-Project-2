@@ -24,8 +24,6 @@ In the navigation menu at the top right, users can search for shows or click "Ra
 
 Here are the wireframes for our project, illustrating the main layouts and user flows.
 
-WILL INPUT IMAGES ONCE WE ARE HAPPY WITH THE LAYOUT.
-
 - **Home Page**
   ![Home Page](public/images/home-page.png)
 
@@ -71,14 +69,26 @@ We've come up with the following user stories to guide our development, and make
 
 Below are the list of Jest tests we used to help bug test our features:
 
-1. **Test 1**
-   - Purpose and result.
+1. **Test #1 - Loading Homepage**
+   - Purpose: Verifies the homepage loads with all navigation links and show titles.
 
-2. **Test 2**
-   - Purpose and result.
+2. **Test #2 - Favorites button**
+   - Purpose: Verifies clicking the Favorites button loads the Favorite shows page.
 
-3. **Test 3**
-  - Purpose and result.
+3. **Test #3 - Random button test**
+  - Purpose: Verifies clicking the random button loads the random page with the "Click me!" button.
+
+4. **Test #4 - Details info**
+  - Purpose: Verifies the details page for Breaking Bad.
+
+5. **Test #5 - Font size button**
+  - Purpose: Verifies the font size adjustment buttons are rendered and can be clicked.
+
+6. **Test #6 - Loads 5 rating stars**
+  - Purpose: Verifies if 5 rating stars are rendered.
+
+7. **Test #7 - Clickable rating stars**
+  - Purpose: Verifies if the rating stars can be selected.
 
 ## Installation
 

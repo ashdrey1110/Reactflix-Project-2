@@ -27,16 +27,16 @@ Here are the wireframes for our project, illustrating the main layouts and user 
 WILL INPUT IMAGES ONCE WE ARE HAPPY WITH THE LAYOUT.
 
 - **Home Page**
-  ![Home Page](images/home-page.png)
+  ![Home Page](public/images/home-page.png)
 
 - **Favorites Page**
-  ![Favorites Page](images/favorites-page.png)
+  ![Favorites Page](public/images/favorites-page.png)
 
 - **Details Page**
-  ![Details Page](images/details-page.png)
+  ![Details Page](public/images/details-page.png)
 
 - **Search Page**
-  ![Search Page ](images/search-page.png)
+  ![Search Page ](public/images/search-page.png)
 
 
 ### User Stories

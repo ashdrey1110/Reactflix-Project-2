@@ -22,7 +22,7 @@ In the navigation menu at the top right, users can search for shows or click "Ra
 
 ### Wireframes
 
-Here are the wireframes for our project, illustrating the main layouts and user flows, this also is what we used to make sure our app is Minimum Viable Product (MVP):
+Here are the wireframes for our project, illustrating the main layouts and user flows.
 
 WILL INPUT IMAGES ONCE WE ARE HAPPY WITH THE LAYOUT.
 
@@ -41,7 +41,7 @@ WILL INPUT IMAGES ONCE WE ARE HAPPY WITH THE LAYOUT.
 
 ### User Stories
 
-We've come up with the following user stories to guide our development:
+We've come up with the following user stories to guide our development, and make sure our app is a Minimum Viable Product (MVP):
 
 1. **As a user, I want to see the top 5 trending shows on the homepage.**
    - Acceptance Criteria:
@@ -82,9 +82,20 @@ Below are the list of Jest tests we used to help bug test our features:
 
 ## Installation
 
-1. **1**
+1. **VS Code**
+  - To run this app, open the project in VS Code.
 
-2. **2**
+2. **NPM Install**
+  - In the project directory, run `npm install` in the terminal
+
+3. **React Router DOM**
+  - Run `npm install react-router-dom` 
+
+4. **MUI**
+  - Run `npm install @mui/material @emotion/react @emotion/styled` 
+
+5. **Run**
+  - Run `npm run dev`
 
 ## Credits
 - Created by: Ashley Reynolds, Robert Prickett, Jesse Baze, Kiersten Morrow

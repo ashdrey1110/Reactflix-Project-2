@@ -107,5 +107,10 @@ Below are the list of Jest tests we used to help bug test our features:
 5. **Run**
   - Run `npm run dev`
 
+## Coming Soon
+  - User/ Admin Login accounts
+  - Movie Previews
+  - Locations or streaming services to watch full movies
+
 ## Credits
 - Created by: Ashley Reynolds, Robert Prickett, Jesse Baze, Kiersten Morrow
